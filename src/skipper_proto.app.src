@@ -1,0 +1,8 @@
+{application, skipper_proto, [
+    {description, "Thrift proto for skipper"},
+    {vsn, "0.1.0"},
+    {applications, [
+        kernel,
+        stdlib
+    ]}
+]}.
